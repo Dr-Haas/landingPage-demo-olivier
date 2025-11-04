@@ -28,7 +28,7 @@ export default function FormContact() {
 
     try {
       // Envoi vers n8n webhook
-      const response = await fetch('https://dikio.app.n8n.cloud/webhook-test/landing-page-form', {
+      const response = await fetch('https://dikio.app.n8n.cloud/webhook/landing-page-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
